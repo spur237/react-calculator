@@ -129,7 +129,6 @@ function Calculator() {
       }
     }
   };
-
   return (
     <>
       <div className="container">
