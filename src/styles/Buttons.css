@@ -1,7 +1,7 @@
 .show-btn {
     display: grid;
     grid-template-columns: auto auto auto auto auto;
-    background-color: rgb(228, 33, 33);
+    background-color: rgb(238, 13, 13);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
   }
@@ -46,7 +46,7 @@
   }
   
   .clr {
-    color: #d66d75;
+    color: #6dd676;
   }
   
   .exp {
