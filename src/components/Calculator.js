@@ -74,7 +74,6 @@ function Calculator() {
       }
       finalexpression = evalSqrt;
     }
-
     try {
       // check brackets are balanced or not
       if (!checkBracketBalanced(finalexpression)) {
@@ -90,7 +89,6 @@ function Calculator() {
     }
     isNaN(result) ? setAnswer(result) : setAnswer(round(result, 3));
   };
-
   // remove last character
   const backspace = () => {
     if (answer !== "") {
