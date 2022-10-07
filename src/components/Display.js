@@ -8,7 +8,6 @@ const Display = ({ input, setInput, answer }) => {
       setInput(e.target.value);
     }
   };
-
   return (
     <>
       <div className="display">
