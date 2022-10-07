@@ -27,13 +27,11 @@ function Calculator() {
     } else setInput(str);
     // setInput(str);
   };
-
   //Clear screen
   const clearInput = () => {
     setInput("");
     setAnswer("");
   };
-
   // check brackets are balanced or not
   const checkBracketBalanced = (expr) => {
     let stack = [];
