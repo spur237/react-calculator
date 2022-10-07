@@ -1,13 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Calculator from "./components/Calculator";
 function App() {
-  return ( 
+  return (
     <>
-    <calculator />
+      <Calculator />
     </>
-    
-  )
+  );
 }
 
 export default App;
