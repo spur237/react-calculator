@@ -48,7 +48,6 @@ function Calculator() {
     }
     return stack.length === 0;
   };
-
   // calculate final answer
   const calculateAns = () => {
     if (input === "") return;
@@ -57,7 +56,6 @@ function Calculator() {
     //  finalexpression = input.replaceAll("^", "**");  //for eval()
     finalexpression = finalexpression.replaceAll("x", "*");
     finalexpression = finalexpression.replaceAll("÷", "/");
-
     // evaluate square root
     let noSqrt = input.match(/√[0-9]+/gi);
 
