@@ -41,7 +41,6 @@ function Calculator() {
         stack.push(x);
         continue;
       }
-
       if (x === ")") {
         if (stack.length === 0) return false;
         else stack.pop();
