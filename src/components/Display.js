@@ -1,6 +1,5 @@
 import React from "react";
 import "./styles/Display.css";
-
 const Display = ({ input, setInput, answer }) => {
   const onChangeTagInput = (e) => {
     const re = /^[!%(-+\x2D-9^glox\xF7\u221A]+$/;
